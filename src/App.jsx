@@ -21,7 +21,7 @@ function App() {
       <Button className={"bg-amber-500"} btnText={"Click Me"} />
       <Button className={"bg-red-700"} btnText={"View All"} />
 
-      <Image img={Game} />
+      <Image className={"w-[400px] h-[300px] mt-5 ml-70"} img={Game} />
     </>
   );
 }

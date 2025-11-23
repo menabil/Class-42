@@ -1,11 +1,3 @@
-const Hello = () => {
-  return <h2>Welcome</h2>;
-};
-
-const One = ({ text, className }) => {
-  return <h3 className={className}>{text}</h3>;
-};
-
 const Button = ({ btnText, className }) => {
   return (
     <button

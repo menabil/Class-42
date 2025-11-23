@@ -1,7 +1,9 @@
 import "./App.css";
-import One from "./components/Heading";
-import Hello from "./components/Heading";
+import One from "./components/Contact";
+import Hello from "./components/Hello";
 import Button from "./components/Heading";
+import Image from "./components/Image";
+import Game from "./assets/console.jpg";
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
 
       <Button className={"bg-amber-500"} btnText={"Click Me"} />
       <Button className={"bg-red-700"} btnText={"View All"} />
+
+      <Image img={Game} />
     </>
   );
 }
